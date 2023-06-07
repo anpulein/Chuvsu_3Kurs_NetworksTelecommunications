@@ -1,0 +1,217 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\ChatWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ChatWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\js\\signalrReqHandler.js",
+      "PackagePath": "staticwebassets\\js\\signalrReqHandler.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\js\\signalrReqHandler.min.js",
+      "PackagePath": "staticwebassets\\js\\signalrReqHandler.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\js\\signrReqHandler.js",
+      "PackagePath": "staticwebassets\\js\\signrReqHandler.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery\\dist\\jquery-unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery-unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\lib\\signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\signalr\\signalr.js",
+      "PackagePath": "staticwebassets\\signalr\\signalr.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\signalr\\signalr.js.map",
+      "PackagePath": "staticwebassets\\signalr\\signalr.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\signalr\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Chuvsu_3Kurs_NetworksTelecommunications\\Lab10\\ChatWebApp\\ChatWebApp\\wwwroot\\signalr\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\signalr\\signalr.min.js.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.ChatWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.ChatWebApp.props",
+      "PackagePath": "build\\ChatWebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ChatWebApp.props",
+      "PackagePath": "buildMultiTargeting\\ChatWebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.ChatWebApp.props",
+      "PackagePath": "buildTransitive\\ChatWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

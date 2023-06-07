@@ -1,0 +1,207 @@
+﻿@using NetworkWebApp.Models
+@model IEnumerable<NetworkWebApp.Models.Message>
+@{
+    ViewData["Title"] = "Home Page";
+    var username = User.Identity?.Name;
+}
+
+<div class="text-center">
+    @* <h1 class="display-4">Welcome</h1> *@
+    @* <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <div class="page-content page-container" id="page-content">
+        <div class="padding">
+            <div class="row container d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="card card-bordered">
+                        <div class="card-header">
+                            <h4 class="card-title">
+                                <strong>Chat</strong>
+                            </h4>
+                            @* <a class="btn btn-xs btn-secondary" href="#" data-abc="true">Let's Chat App</a> *@
+                        </div>
+
+                        <div class="ps-container ps-theme-default ps-active-y" id="chat-content" style="overflow-y: scroll !important; height:600px !important;">
+                            @if (Model != null)
+                            {
+                                @foreach (var message in Model.OrderBy(m => m.When))
+                                {
+                                    if (message.b_deleted != null) continue;
+                                    switch (message.TypeMessage)
+                                    {
+                                        case TypeMessage.MESSAGE:
+                                        {
+                                            if (username == message.UserName)
+                                            {
+                                                <div class="media media-chat media-chat-reverse">
+                                                    <div class="name">@message.UserName</div>
+                                                    <div class="media-body">
+                                                        <p>@message.Text</p>
+                                                        <p class="meta">
+                                                            <time datetime="2018">@message.When.ToString("HH:mm:ss")</time>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="media media-chat media-chat-answer">
+                                                    <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                                                    <div class="name">@message.UserName</div>
+                                                    <div class="media-body">
+                                                        <p>@message.Text</p>
+                                                        <p class="meta">
+                                                            <time datetime="2018">@message.When.ToString("HH:mm:ss")</time>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            }
+                                            break;
+                                        }
+                                        case TypeMessage.FILE:
+                                        {
+                                            if (username == message.UserName)
+                                            {
+                                                <div class="media media-chat media-chat-reverse">
+                                                    <div class="name">@message.UserName</div>
+                                                    <div class="media-body">
+                                                        <a href="@Url.Action("Download", "Home", new { fileName = @message?.File?.Id })">
+                                                            <i class="fa fa-file" aria-hidden="true"></i>
+                                                            <p>@message?.File?.Name</p>
+                                                        </a>
+                                                        <p class="meta">
+                                                            <time datetime="2018">@message?.When.ToString("HH:mm:ss")</time>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="media media-chat media-chat-answer">
+                                                    <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                                                    <div class="name">@message?.UserName</div>
+                                                    <div class="media-body">
+                                                        <a href="@Url.Action("Download", "Home", new { fileName = @message?.File?.Id })">
+                                                            <i class="fa fa-file" aria-hidden="true"></i>
+                                                            <p>@message?.File?.Name</p>
+                                                        </a>
+                                                        <p class="meta">
+                                                            <time datetime="2018">@message?.When.ToString("HH:mm:ss")</time>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            }
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+                            <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                                <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                            </div>
+                            <div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;">
+                                <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div>
+                            </div>
+                        </div>
+
+                        <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                            <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                        </div>
+                        <div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;">
+                            <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="publisher bt-1 border-light">
+                        <span class="publisher-btn file-group">
+                            <form id="file-form" enctype="multipart/form-data" asp-controller="Home" asp-action="Upload"
+                                  data-ajax-begin="clearInputField" data-ajax-complete=""
+                                  data-ajax-failure="alert('Fail')" data-ajax-success="sendMessage"
+                                  data-ajax="true" data-ajax-method="POST">
+                                <label for="file-upload">
+                                    <i class="fa fa-paperclip file-browser"></i>
+                                </label>
+                                <input id="file-upload" type="file" name="file">
+                                <button type="submit" class="btn" id="submitButtonForFile" style="display: none">
+                                </button>
+                                <input type="hidden" value="@username" name="username"/>
+                                <input type="hidden" value="FILE" name="type"/>
+                            </form>
+                        </span>
+                        <form style="width: 100%" asp-controller="Home" asp-action="Create"
+                              data-ajax-begin="clearInputField" data-ajax-complete=""
+                              data-ajax-failure="alert('Fail')" data-ajax-success="sendMessage"
+                              data-ajax="true" data-ajax-method="POST">
+                            <div style="position: relative; display: -webkit-box; display: flex; -webkit-box-align: center; align-items: center; padding: 12px 20px; background-color: #f9fafb;">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <img class="avatar avatar-xs" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                                <input name="Text" class="publisher-input form-control" id="messageText" type="text" placeholder="Write something">
+                                <span class="publisher-btn text-info">
+                                    <button type="submit" class="btn" id="submitButton" style="color: #007bff">
+                                        <i class="fa fa-paper-plane"></i>
+                                    </button>
+                                </span>
+                                <input type="hidden" value="@username" name="username"/>
+                                <input type="hidden" value="MESSAGE" name="type"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <script>
+        const userName = "@ViewBag.CurrentUserName";
+    </script>
+}
+
+@section Scripts
+{
+    <script src="~/signalr/signalr.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.unobtrusive-ajax.min.js" asp-append-version="true"></script>
+    <script src="~/js/chat.js" asp-append-version="true"></script>
+    <script src="~/js/signalrReqHandler.js" asp-append-version="true"></script>
+    <script>
+        document.getElementById('file-upload').addEventListener('change', function() {
+                var form = this.parentNode;
+                var formData = new FormData(form);
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', form.action, true);
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        console.log('Файл успешно загружен.');
+                        var response = JSON.parse(xhr.responseText);
+                        var fileId = response.fileId;
+                        var type = "FILE"
+                        sendMessage(fileId, type);
+                    } else {
+                        console.log('Произошла ошибка при загрузке файла.');
+                    }
+                };
+                xhr.send(formData);
+            });
+        
+        document.getElementById('submitButton').addEventListener('click', function() {
+            var form = this.parentNode.parentNode;
+            var formData = new FormData(form);
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', form.action, true);
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    console.log('Сообщение успешно отправлено.');
+                    var type = "MESSAGE";
+                    sendMessage(null, type);
+                } else {
+                    console.log('Произошла ошибка при отправке сообщения.');
+                }
+            };
+            xhr.send(formData);
+        });
+    </script>
+}

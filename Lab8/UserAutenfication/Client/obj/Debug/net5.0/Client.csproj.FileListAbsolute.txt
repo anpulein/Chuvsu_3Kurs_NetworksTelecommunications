@@ -1,0 +1,16 @@
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\bin\Debug\net5.0\Client.exe
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\bin\Debug\net5.0\Client.deps.json
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\bin\Debug\net5.0\Client.runtimeconfig.json
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\bin\Debug\net5.0\Client.runtimeconfig.dev.json
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\bin\Debug\net5.0\Client.dll
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\bin\Debug\net5.0\ref\Client.dll
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\bin\Debug\net5.0\Client.pdb
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\Client.csproj.AssemblyReference.cache
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\Client.AssemblyInfoInputs.cache
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\Client.AssemblyInfo.cs
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\Client.csproj.CoreCompileInputs.cache
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\Client.dll
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\ref\Client.dll
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\Client.pdb
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\Client\obj\Debug\net5.0\Client.genruntimeconfig.cache

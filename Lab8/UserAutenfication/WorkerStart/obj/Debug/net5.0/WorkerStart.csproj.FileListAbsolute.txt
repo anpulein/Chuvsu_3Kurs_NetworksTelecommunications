@@ -1,0 +1,16 @@
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\bin\Debug\net5.0\WorkerStart.exe
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\bin\Debug\net5.0\WorkerStart.deps.json
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\bin\Debug\net5.0\WorkerStart.runtimeconfig.json
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\bin\Debug\net5.0\WorkerStart.runtimeconfig.dev.json
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\bin\Debug\net5.0\WorkerStart.dll
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\bin\Debug\net5.0\ref\WorkerStart.dll
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\bin\Debug\net5.0\WorkerStart.pdb
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\WorkerStart.csproj.AssemblyReference.cache
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\WorkerStart.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\WorkerStart.AssemblyInfoInputs.cache
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\WorkerStart.AssemblyInfo.cs
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\WorkerStart.csproj.CoreCompileInputs.cache
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\WorkerStart.dll
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\ref\WorkerStart.dll
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\WorkerStart.pdb
+D:\Projects\Chuvsu_3Kurs_NetworksTelecommunications\Lab8\UserAutenfication\WorkerStart\obj\Debug\net5.0\WorkerStart.genruntimeconfig.cache
